@@ -58,7 +58,7 @@ Component.prototype.renderSubItem = function (obj) {
 //////////////////////////////////////////////
 /////////////////////////////////////////////
 
-var componentHeader = new Component({parent: 'header', url: './../img/logo.png', title: 'Рога и Копыта'}),
+var componentHeader = new Component({parent: 'header', url: './img/logo.png', title: 'Рога и Копыта'}),
     componentMenu = new Component({parent: 'nav'}),
     componentFooter = new Component({parent: 'footer', text: '&#169; Копирайты'}),
     viewHeader = '<h1><img src="{url}" alt="{title}"/>{title}</h1>',
